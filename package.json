@@ -1,0 +1,16 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI background job queue for assignment",
+  "main": "src/cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "demo": "node src/cli.js demo"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.5.0",
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}
